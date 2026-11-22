@@ -155,6 +155,10 @@ examples/                     ← sample content for every renderer (with index 
 
 MIT — Copyright pushme-pullyou. See [`LICENSE`](LICENSE).
 
+## Releases
+
+- [r1](https://pushme-pullyou.github.io/tootoo/releases/r1/) — 2026-11-21 — First numbered release: the 2026-11-02 build (HTML previews run scripts, `faviconFile`, dated backups hidden by default)
+
 ## Change Log
 
 * 2026-11-02 — HTML/HTM previews now run scripts without a sandbox and load actual local or published Pages URLs when available, preserving config/assets and repository detection. Embedded app copies avoid recursive self-previews, and root-site `/index.html` detects the correct repository. Only open trusted HTML. Dated backups are hidden by default (`hideDatedBackups: false` shows them). Added `faviconFile` for supplied icon files or URLs; unset means no app icon marks. Removed fallback icon generation.
