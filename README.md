@@ -133,11 +133,13 @@ MIT — Copyright pushme-pullyou. See [`LICENSE`](LICENSE).
 
 ## Releases
 
+- [r3](https://pushme-pullyou.github.io/tootoo/releases/r3/) — 2026-11-22 — A new header: the icon (`faviconFile`, or a GitHub mark) links to the repo on GitHub, the owner to `<owner>.github.io`, the repo to its Pages site, and the app name back to the start. Each file's header gets a GitHub mark linking to that file on GitHub
 - [r2](https://pushme-pullyou.github.io/tootoo/releases/r2/) — 2026-11-22 — The rebuild: settings in a config block inside `index.html` (no more `tootoo.config.js`), local folders on `file://`, the update notice, PDF / CSV / HTML loaders fetched on demand. Retired: `faviconLetters`, `faviconColor`, `preferPagesUrls`, spreadsheets, the self-test and the repo form
 - [r1](https://pushme-pullyou.github.io/tootoo/releases/r1/) — 2026-11-21 — First numbered release: the 2026-11-02 build (HTML previews run scripts, `faviconFile`, dated backups hidden by default)
 
 ## Change Log
 
+* 2026-11-22 — Release r3: the new header and the file-on-GitHub link. Settings blocks carry over unchanged; installs on r2 see "r3 available".
 * 2026-11-22 — Release r2, the rebuild. `index.html` is now r2, with this repo's settings in its config block; `tootoo.config.js` is gone. r1 stays at [`releases/r1/`](releases/r1/). README updated for the config block, updates, and storage. A GitHub token saved in r1 must be saved again once.
 * 2026-11-02 — HTML/HTM previews now run scripts without a sandbox and load actual local or published Pages URLs when available, preserving config/assets and repository detection. Embedded app copies avoid recursive self-previews, and root-site `/index.html` detects the correct repository. Only open trusted HTML. Dated backups are hidden by default (`hideDatedBackups: false` shows them). Added `faviconFile` for supplied icon files or URLs; unset means no app icon marks. Removed fallback icon generation.
 * 2026-11-01 — Sidebar: a floating go-to-top button appears when the panel overflows. README-prefixed files, including descriptive names and dated backups, now appear first among each folder's files.
