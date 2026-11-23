@@ -4,19 +4,20 @@ This repo is the **published TooToo app**, not where TooToo is developed.
 
 ## The one rule
 
-**Never hand-edit [`index.html`](index.html).** It is a generated build. The component
-sources, assembler (`assemble.ps1`), tests, and the `promote` → `sync` → `publish`
-release pipeline live in the **Dolittle workshop** repo
-(`g:\My Drive\2026-theo-github\pushme-pullyou-dolittle`, GitHub
-`pushme-pullyou/dolittle`). Make every code change there, rebuild, and let the
-pipeline write this repo's `index.html`.
+**Never hand-edit [`index.html`](index.html).** It is a generated build. From r2 on,
+the component sources, assembler (`assemble.ps1`), tests and the `release` command live in
+the rebuilt workshop, `g:\My Drive\2026-theo-github\pushme-pullyou-tootoo-next` (to be
+published as `pushme-pullyou/dolittle`; see its `AGENTS.md`). Make every code change
+there, and let its `release` command write this repo's `index.html`, `releases/rN/` and
+`releases/latest.json`.
 
 ## What may be edited here
 
 - `README.md`, `FORKING.md` — user-facing docs.
 - `examples/` — sample content for the renderers.
-- `tootoo.config.js` — this install's own branding. No pipeline command ever touches it.
-- `favicon.ico`, `tootoo-screenshot.jpeg` — assets (the screenshot is refreshed by `promote`).
+- `favicon.ico`, `tootoo-screenshot.jpeg` — assets.
+- This repo's own settings are the config block in `index.html` (between the
+  `TOOTOO-CONFIG` markers). Each release carries it forward unchanged.
 
 ## Releases
 

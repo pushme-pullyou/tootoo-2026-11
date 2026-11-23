@@ -1,5 +1,7 @@
 # Forking TooToo
 
+> **This guide describes r1**, the build at [`releases/r1/`](releases/r1/). From r2 on, the app was rebuilt: settings live in the config block inside `index.html`, and `tootoo.config.js` is gone. See [`README.md`](README.md) for r2.
+
 A guide for developers who want to fork TooToo and modify it. For the basic "edit `CONFIG`, push, enable Pages" flow, see the **Fork & Customize** section of [`README.md`](README.md). This document is for people who want to add features or change behavior.
 
 > **Canonical dev vs your fork.** Canonical `index.html` is *generated* from component
