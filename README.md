@@ -1,4 +1,6 @@
-# TooToo
+# TooToo 2026
+
+> **TooToo now lives at [pushme-pullyou/tootoo](https://github.com/pushme-pullyou/tootoo)**, which holds its source, its releases (r1 onward, including the frozen copies once kept here) and the live demo at [pushme-pullyou.github.io/tootoo](https://pushme-pullyou.github.io/tootoo/). This repo, renamed `tootoo-2026` on 2026-11-23, keeps the 2026 history and stays active, served at [pushme-pullyou.github.io/tootoo-2026](https://pushme-pullyou.github.io/tootoo-2026/). Its r1 GitHub Release stays here.
 
 [![Live Demo](https://img.shields.io/badge/demo-live-success)](https://pushme-pullyou.github.io/tootoo/)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
